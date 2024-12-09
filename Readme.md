@@ -1,6 +1,6 @@
 # Project3_Law Home Page
 
-###By Ulka Dedwal
+### By Ulka Dedwal
 ## livelink[LawHomePage][http://127.0.0.1:5500/index.html]
 This project gave me good learning experience about adding image as backgroung.
 
