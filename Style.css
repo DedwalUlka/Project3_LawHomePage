@@ -1,0 +1,92 @@
+/*  --- Project 3 --- */
+@import url('https://fonts.googleapis.com/css2?family=Parkinsans:wght@300..800&display=swap');
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #363329;
+  font-family: Parkinsans;
+}
+.container{
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  color: #FFFFFF;
+}
+/* ---Navbar Start --- */
+.container>section:first-child{
+  height: 20vh;
+}
+.navbar{
+  width:100%;
+  margin-top: 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+nav>div>img{
+  margin-left: 75%;
+}
+nav>div:nth-child(2){
+  width: 42%;
+  margin-left: 17%;
+}
+.list{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  list-style: none;
+  font-size: 16px;
+}
+.list-item{
+  font-weight: 100;
+}
+.list-item:first-child{
+  font-weight: 700;
+}
+nav>div:last-child{
+  width: 12%;
+  margin-right: 3%;
+}
+.button-small{
+  padding: 12px 27px;
+  background-color: transparent;
+  border:1.5px solid #D6951D;
+  border-radius: 5px;
+  color:#D6951D;
+  font-size: 16px;
+}
+/* --- Navbar End --- */
+section:last-child{
+  height: 80vh;
+  width: 100vw;
+}
+.hero{
+  margin-left: 8%;
+  display: flex;
+  justify-content: space-between;
+}
+.hero-heading{
+  justify-content: left;
+  width: 50%;
+  font-size: 450%;
+}
+.hero>p{
+  justify-content: right;
+  width: 34%;
+  margin-top: 10%;
+  font-size: 127%;
+  color:#D3CCCC;
+}
+.bottom>div>img{
+  position: absolute;
+  left: 0.0%;
+  bottom: -36%;
+  height: 60%;
+  width: 100%;
+  object-fit: cover;
+}
